@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1000"
+     height="600"
+     viewBox="0 0 1000 600">
+<rect width="100%" height="100%" fill="white"/>
+<text x="500" y="35"
+      text-anchor="middle"
+      font-size="24"
+      font-family="Arial">
+Comparatie Arrays.sort() vs Arrays.parallelSort()
+</text>
+<line x1="100" y1="70" x2="100" y2="500" stroke="black"/><line x1="100" y1="500" x2="950" y2="500" stroke="black"/><text x="25" y="300"
+      transform="rotate(-90 25 300)"
+      font-size="16"
+      font-family="Arial">
+Timp (ms)
+</text>
+<text x="500" y="580"
+      text-anchor="middle"
+      font-size="16"
+      font-family="Arial">
+Numar de elemente
+</text>
+<line x1="100" y1="500" x2="950" y2="500" stroke="lightgray"/><text x="90" y="505" text-anchor="end" font-size="12" font-family="Arial">0.0</text><line x1="100" y1="414" x2="950" y2="414" stroke="lightgray"/><text x="90" y="419" text-anchor="end" font-size="12" font-family="Arial">97.1</text><line x1="100" y1="328" x2="950" y2="328" stroke="lightgray"/><text x="90" y="333" text-anchor="end" font-size="12" font-family="Arial">194.3</text><line x1="100" y1="242" x2="950" y2="242" stroke="lightgray"/><text x="90" y="247" text-anchor="end" font-size="12" font-family="Arial">291.4</text><line x1="100" y1="156" x2="950" y2="156" stroke="lightgray"/><text x="90" y="161" text-anchor="end" font-size="12" font-family="Arial">388.6</text><line x1="100" y1="70" x2="950" y2="70" stroke="lightgray"/><text x="90" y="75" text-anchor="end" font-size="12" font-family="Arial">485.7</text><line x1="100" y1="489" x2="383" y2="453" stroke="blue" stroke-width="3"/><line x1="100" y1="491" x2="383" y2="489" stroke="red" stroke-width="3"/><line x1="383" y1="453" x2="666" y2="412" stroke="blue" stroke-width="3"/><line x1="383" y1="489" x2="666" y2="483" stroke="red" stroke-width="3"/><line x1="666" y1="412" x2="950" y2="70" stroke="blue" stroke-width="3"/><line x1="666" y1="483" x2="950" y2="444" stroke="red" stroke-width="3"/><circle cx="100" cy="489" r="6" fill="blue"/><circle cx="100" cy="491" r="6" fill="red"/><text x="100" y="525" text-anchor="middle" font-size="12" font-family="Arial">100000</text><circle cx="383" cy="453" r="6" fill="blue"/><circle cx="383" cy="489" r="6" fill="red"/><text x="383" y="525" text-anchor="middle" font-size="12" font-family="Arial">500000</text><circle cx="666" cy="412" r="6" fill="blue"/><circle cx="666" cy="483" r="6" fill="red"/><text x="666" y="525" text-anchor="middle" font-size="12" font-family="Arial">1000000</text><circle cx="950" cy="70" r="6" fill="blue"/><circle cx="950" cy="444" r="6" fill="red"/><text x="950" y="525" text-anchor="middle" font-size="12" font-family="Arial">5000000</text><circle cx="750" cy="75" r="6" fill="blue"/>
+<text x="765" y="80"
+      font-size="14"
+      font-family="Arial">
+Arrays.sort()
+</text>
+<circle cx="750" cy="100" r="6" fill="red"/>
+<text x="765" y="105"
+      font-size="14"
+      font-family="Arial">
+Arrays.parallelSort()
+</text>
+</svg>
