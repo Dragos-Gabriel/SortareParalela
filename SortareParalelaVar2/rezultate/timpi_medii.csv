@@ -1,0 +1,15 @@
+Elemente,Metoda,Timp_mediu_ms
+100000,Arrays.parallelSort(),1.088
+100000,Arrays.sort(),0.490
+500000,Arrays.parallelSort(),1.224
+500000,Arrays.sort(),2.365
+1000000,Arrays.parallelSort(),3.024
+1000000,Arrays.sort(),9.942
+5000000,Arrays.parallelSort(),10.359
+5000000,Arrays.sort(),74.468
+10000000,Arrays.parallelSort(),20.493
+10000000,Arrays.sort(),144.448
+50000000,Arrays.parallelSort(),128.893
+50000000,Arrays.sort(),945.498
+100000000,Arrays.parallelSort(),294.118
+100000000,Arrays.sort(),3508.684

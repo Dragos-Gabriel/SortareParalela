@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1000" height="600">
+<rect width="1000" height="600" fill="white"/>
+<text x="500" y="35" text-anchor="middle"
+      font-family="Arial" font-size="24">
+Sortare secventiala vs paralela
+</text>
+<line x1='100' y1='500' x2='940' y2='500' stroke='#dddddd'/>
+<text x='90' y='504' text-anchor='end' font-family='Arial' font-size='12'>0.0</text>
+<line x1='100' y1='420' x2='940' y2='420' stroke='#dddddd'/>
+<text x='90' y='424' text-anchor='end' font-family='Arial' font-size='12'>771.9</text>
+<line x1='100' y1='340' x2='940' y2='340' stroke='#dddddd'/>
+<text x='90' y='344' text-anchor='end' font-family='Arial' font-size='12'>1543.8</text>
+<line x1='100' y1='260' x2='940' y2='260' stroke='#dddddd'/>
+<text x='90' y='264' text-anchor='end' font-family='Arial' font-size='12'>2315.7</text>
+<line x1='100' y1='180' x2='940' y2='180' stroke='#dddddd'/>
+<text x='90' y='184' text-anchor='end' font-family='Arial' font-size='12'>3087.6</text>
+<line x1='100' y1='100' x2='940' y2='100' stroke='#dddddd'/>
+<text x='90' y='104' text-anchor='end' font-family='Arial' font-size='12'>3859.6</text>
+<line x1='100' y1='100' x2='100' y2='500' stroke='black' stroke-width='2'/><line x1='100' y1='500' x2='940' y2='500' stroke='black' stroke-width='2'/><circle cx='100' cy='500' r='6' fill='blue'/>
+<text x='100' y='525' text-anchor='middle' font-size='12' font-family='Arial'>100000</text>
+<circle cx='240' cy='500' r='6' fill='blue'/>
+<text x='240' y='525' text-anchor='middle' font-size='12' font-family='Arial'>500000</text>
+<circle cx='380' cy='499' r='6' fill='blue'/>
+<text x='380' y='525' text-anchor='middle' font-size='12' font-family='Arial'>1000000</text>
+<circle cx='520' cy='493' r='6' fill='blue'/>
+<text x='520' y='525' text-anchor='middle' font-size='12' font-family='Arial'>5000000</text>
+<circle cx='660' cy='486' r='6' fill='blue'/>
+<text x='660' y='525' text-anchor='middle' font-size='12' font-family='Arial'>10000000</text>
+<circle cx='800' cy='403' r='6' fill='blue'/>
+<text x='800' y='525' text-anchor='middle' font-size='12' font-family='Arial'>50000000</text>
+<circle cx='940' cy='137' r='6' fill='blue'/>
+<text x='940' y='525' text-anchor='middle' font-size='12' font-family='Arial'>100000000</text>
+<polyline fill='none' stroke='blue' stroke-width='3' points='100,500 240,500 380,499 520,493 660,486 800,403 940,137'/><circle cx='100' cy='500' r='6' fill='red'/>
+<circle cx='240' cy='500' r='6' fill='red'/>
+<circle cx='380' cy='500' r='6' fill='red'/>
+<circle cx='520' cy='499' r='6' fill='red'/>
+<circle cx='660' cy='498' r='6' fill='red'/>
+<circle cx='800' cy='487' r='6' fill='red'/>
+<circle cx='940' cy='470' r='6' fill='red'/>
+<polyline fill='none' stroke='red' stroke-width='3' points='100,500 240,500 380,500 520,499 660,498 800,487 940,470'/><text x="500" y="570" text-anchor="middle"
+      font-family="Arial" font-size="16">
+Numar de elemente
+</text>
+<text x="30" y="300" text-anchor="middle"
+      transform="rotate(-90 30 300)"
+      font-family="Arial" font-size="16">
+Timp mediu (ms)
+</text>
+<line x1="690" y1="65" x2="730" y2="65"
+      stroke="blue" stroke-width="3"/>
+<text x="740" y="70" font-family="Arial"
+      font-size="14">Arrays.sort()</text>
+<line x1="690" y1="90" x2="730" y2="90"
+      stroke="red" stroke-width="3"/>
+<text x="740" y="95" font-family="Arial"
+      font-size="14">Arrays.parallelSort()</text>
+</svg>
